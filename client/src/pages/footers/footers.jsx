@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.png";
+import bca from "../../assets/bca1.jpg";
 import ButtonPrimary from "../../components/button/button";
 
 const Footer = () => {
@@ -37,7 +38,7 @@ const Footer = () => {
         </div>
 
         {/* Footer pojok kanan */}
-        <div className="flex flex-col md:w-1/4 gap-2">
+        <div className="flex flex-col md:w-1/4 gap-2 mr-8">
           <p className="font-bold text-third-text">Kabar Terbaru</p>
           <div className="flex gap-2 items-center">
             <input
@@ -52,8 +53,9 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div>
-        <p className="text-secondary-text text-center">Copyright © 2022. All rights reserved.</p>
+      <div className="bg-primary-text flex border-t-2 justify-between rounded-sm">
+        <p className="text-secondary-text text-left p-2">@ 2021 - Blogy - Designed & Develop by Andre Adyatmoko</p>
+        <img src={bca} alt="bca" className="w-10 h-10 rounded-md" />
       </div>
     </footer>
   );
