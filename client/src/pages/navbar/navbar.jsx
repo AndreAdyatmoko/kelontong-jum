@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex justify-between px-44 py-4 items-center">
           <div className="flex items-center gap-2">
             <img src={logo} alt="logo" className="w-10 h-10 rounded-md" />
-            <p className="text-secondary-text">Bu Jum</p>
+            <p className="text-secondary-text font-bold">Bu Jum</p>
           </div>
           <div className="flex items-center gap-2 bg-primary-text rounded-md p-1">
             <input

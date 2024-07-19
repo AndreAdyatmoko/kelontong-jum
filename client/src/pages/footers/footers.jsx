@@ -10,9 +10,9 @@ const Footer = () => {
         <div className="flex flex-col md:w-1/4 gap-2">
           <div className="flex items-center gap-2">
             <img src={logo} alt="logo" className="w-10 h-10 rounded-md" />
-            <p className="text-secondary-text">Bu Jum</p>
+            <p className="text-secondary-text font-bold">Bu Jum</p>
           </div>
-          <p className="text-secondary-text">
+          <p className="text-third-text">
             Vivamus tristique odio sit amet velit semper, eu posuere turpis interdum. Cras egestas purus.
           </p>
         </div>
