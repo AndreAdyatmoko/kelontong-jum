@@ -4,6 +4,8 @@ import { RxAvatar } from "react-icons/rx";
 import { FaRegHeart } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
 import { TiTick } from "react-icons/ti";
+import { GiHamburgerMenu } from "react-icons/gi";
+
 import logo from "../../assets/logo.png";
 
 const Navbar = () => {
@@ -29,7 +31,7 @@ const Navbar = () => {
             <input
               type="text"
               placeholder="Cari barang mu disini..."
-              className="p-1 text-black focus:outline-none"
+              className="p-1 text-black focus:outline-none w-full" // Adjust width for responsiveness
             />
             <IoIosSearch className="text-gray-600" />
           </div>
@@ -44,6 +46,31 @@ const Navbar = () => {
             <div className="bg-primary-text rounded-lg flex items-center justify-center w-10 h-10">
               <RxAvatar className="text-gray-600 w-6 h-6" />
             </div>
+          </div>
+        </div>
+      </div>
+      {/* Navbar second section */}
+      <div className="bg-primary-text px-44 py-2 text-primary-text flex justify-between border-b-2">
+        <div className="flex gap-2">
+          <div className="border border-third-text rounded-md p-2 flex gap-2">
+            <GiHamburgerMenu className="text-secondary-text w-6 h-6" />
+            <p className="font-bold text-secondary-text">Kategori</p>
+          </div>
+          <div className="flex gap-2 p-2">
+            <p className="text-third-text">Home</p>
+            <p className="text-third-text">Shop</p>
+            <p className="text-third-text">Product</p>
+            <p className="text-third-text">Pages</p>
+            <p className="text-third-text">About</p>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center">
+            {" "}
+            <span className="text-secondary-text font-bold mr-2">
+              Contact:
+            </span>{" "}
+            <p className="text-third-text">(808) 555-0111</p>
           </div>
         </div>
       </div>
