@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Landing from "./pages/landing";
-import Navbar from "./pages/navbar/navbar";
+// import Navbar from "./pages/navbar/navbar";
 
 function App() {
   return (
