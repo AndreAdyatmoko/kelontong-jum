@@ -24,9 +24,6 @@ const Footer = () => {
           <p>Ciki</p>
           <p>Category</p>
           <p>Category</p>
-          <p>Category</p>
-          <p>Category</p>
-          <p>Category</p>
         </div>
 
         {/* Footer 3 */}
