@@ -49,7 +49,7 @@ const Footer = () => {
             <ButtonPrimary className="p-4" text="Coba" />
           </div>
           <p className="text-third-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt iure sequi et, odio rem expedita magni quam, ea nobis culpa cumque aliquam! Nesciunt quasi veritatis reprehenderit, ipsa voluptate odit cum?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt iure sequi et, odio rem expedita magni quam.
           </p>
         </div>
       </div>
