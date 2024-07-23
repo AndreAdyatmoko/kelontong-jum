@@ -76,7 +76,7 @@ function Content() {
           </p>
         </div>
       </div>
-      <div className="relative -top-12 w-full flex items-center justify-center mb-6">
+      <div className="relative -top-12 px-28">
         <div className="bg-primary-text py-6 px-8 rounded-md flex flex-wrap items-center gap-4 shadow-lg">
           <Feature
             imgSrc={box}
